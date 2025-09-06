@@ -1,0 +1,7 @@
+<!-- app/src/main/res/values/colors.xml -->
+<resources>
+    <color name="primary">#212121</color>
+    <color name="accent">#FF6F00</color>
+    <color name="bg">#FAFAFA</color>
+    <color name="stroke_default">#222222</color>
+</resources>

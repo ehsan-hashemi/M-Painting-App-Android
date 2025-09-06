@@ -1,0 +1,22 @@
+<!-- app/src/main/res/values/strings.xml -->
+<resources>
+    <string name="app_name">M Painting</string>
+    <string name="pen">قلم</string>
+    <string name="eraser">پاک‌کن</string>
+    <string name="rectangle">مستطیل</string>
+    <string name="circle">دایره</string>
+    <string name="triangle">مثلث</string>
+    <string name="text">متن</string>
+    <string name="color">رنگ</string>
+    <string name="thickness">ضخامت</string>
+    <string name="fill">پر کردن</string>
+    <string name="undo">برگشت</string>
+    <string name="redo">جلو</string>
+    <string name="clear">پاک‌سازی</string>
+    <string name="save">ذخیره</string>
+    <string name="load">بارگذاری</string>
+    <string name="enter_text">متن را وارد کنید</string>
+    <string name="ok">تأیید</string>
+    <string name="cancel">لغو</string>
+    <string name="zoom_reset">ریست زوم</string>
+</resources>

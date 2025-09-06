@@ -1,0 +1,71 @@
+<!-- app/src/main/res/layout/activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button android:id="@+id/btnPen" android:text="@string/pen"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <Button android:id="@+id/btnEraser" android:text="@string/eraser"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <Button android:id="@+id/btnRect" android:text="@string/rectangle"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <Button android:id="@+id/btnCircle" android:text="@string/circle"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <Button android:id="@+id/btnTriangle" android:text="@string/triangle"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <Button android:id="@+id/btnText" android:text="@string/text"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+            <Button android:id="@+id/btnColor" android:text="@string/color"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+            <CheckBox
+                android:id="@+id/cbFill"
+                android:text="@string/fill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <SeekBar
+                android:id="@+id/seekThickness"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:max="80"
+                android:progress="12"/>
+
+            <Button android:id="@+id/btnUndo" android:text="@string/undo"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <Button android:id="@+id/btnRedo" android:text="@string/redo"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <Button android:id="@+id/btnClear" android:text="@string/clear"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <Button android:id="@+id/btnSave" android:text="@string/save"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <Button android:id="@+id/btnLoad" android:text="@string/load"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <Button android:id="@+id/btnZoomReset" android:text="@string/zoom_reset"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ir.ehsanpg.mpa.DrawingView
+        android:id="@+id/drawingView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"/>
+</LinearLayout>
